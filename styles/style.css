@@ -1,0 +1,87 @@
+header {
+    background-color: #272550;
+    color: white;
+}
+
+header .lan .left {
+    float: right;
+}
+
+.afterheading img {
+    float: right;
+}
+
+.afterheading .menu {
+    width: 100%;
+    background: white;
+}
+
+.afterheading .menu ul {
+    margin: 0;
+    padding: 0;
+    display: table;
+    margin: 0 auto;
+}
+
+.afterheading .menu ul li {
+    list-style: none;
+    display: inline-block;
+    float: right;
+    padding: 10px 15px;
+}
+
+.afterheading .menu ul li a {
+    text-decoration: none;
+}
+
+.afterheading .menu .sub {
+    display: none;
+}
+
+.menu ul li:hover .sub {
+    display: block;
+}
+
+.menu ul li {
+    position: relative;
+}
+
+.menu ul li .sub {
+    position: absolute;
+    top: 100%;
+    right: 0;
+}
+.afterheading h3{
+    float: right;
+}
+.afterslider ul li {
+list-style: none;
+display: inline-block;
+right: 0;
+}
+header .lan{
+    float: right;
+}
+header .search{
+    float: center;
+}
+.spanser ul li{
+    list-style: none;
+    display: inline-block;
+    right: 0;
+}
+.afterfooter2 ul li{
+    list-style: none;
+    display: inline-block;
+    right: 0;
+}
+header .left{
+    display: flex;
+}
+header .lan{
+    display: flex;
+}
+header .left .phone{
+    padding:0px 10px;
+    border-left: 3px;
+}
